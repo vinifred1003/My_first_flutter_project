@@ -99,7 +99,7 @@ class PerguntaAppState extends State<PerguntaApp> {
                 perguntaSelecionada: perguntaSelecionada,
                 quandoResponder: responder,
               )
-            : const Resultado("Parabéns!!!"),
+            : Resultado(pontuacaoTotal),
       ),
     );
   }
