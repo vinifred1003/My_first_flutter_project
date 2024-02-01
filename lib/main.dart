@@ -9,7 +9,7 @@ class PerguntaAppState extends State<PerguntaApp> {
   var pontuacaoTotal = 0;
   final _perguntas = const [
     {
-      'texto': 'Qual sua cor favorita',
+      'texto': 'Qual é sua cor favorita',
       'respostas': [
         {
           'texto': 'Preto',
